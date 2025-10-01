@@ -1,1 +1,19 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+
+@theme {
+   /* 480px */
+   --breakpoint-sm: 30rem;
+   /* 768px */
+   --breakpoint-md: 48rem;
+   /* 976px */
+   --breakpoint-lg: 61rem;
+   /* 1440px */
+   --breakpoint-xl: 90rem;
+   /* colors */
+   --color-strongCyan: hsl(171, 66%, 44%);
+   --color-lightBlue: hsl(233, 100%, 69%);
+   --color-darkGrayishBlue: hsl(210, 10%, 33%);
+   --color-grayishBlue: hsl(201, 11%, 66%);
+   /* Fonts */
+   --font-bai-jamjuree: 'Bai Jamjuree', sans-serif;
+}
