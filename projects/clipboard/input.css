@@ -39,7 +39,7 @@
    }
 
    .section-container {
-      @apply mx-auto max-w-6xl text-center;
+      @apply mx-auto max-w-6xl text-center px-10;
    }
 
    .button-container {
