@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import 'tailwindcss';
+
+@theme {
+   /* 480px */
+   --breakpoint-sm: 480px;
+   /* 768px */
+   --breakpoint-md: 768px;
+   /* 976px */
+   --breakpoint-lg: 976px;
+   /* 1440px */
+   --breakpoint-xl: 1440px;
+   --font-sans: 'Josefin Sans', sans-serif;
+   --font-alata: 'Alata', sans-serif;
+
+}
+
+@layer base {}
