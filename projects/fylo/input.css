@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+   --color-darkBlue: hsl(217, 28%, 15%);
+   --color-darkBlue1: hsl(218, 28%, 13%);
+   --color-darkBlue2: hsl(216, 53%, 9%);
+   --color-darkBlue3: hsl(219, 30%, 18%);
+   --color-accentCyan: hsl(176, 68%, 64%);
+   --color-accentBlue: hsl(198, 60%, 50%);
+   --color-lightRed: hsl(0, 100%, 63%);
+   --font-sans: ['Raleway', sans-serif];
+   --font-opensans: ['Open Sans', sans-serif];
+   --background-image-logo: url('../images/logo-light-mode.svg');
+   --background-image-curvy: url('../images/bg-curvy-light-mode.svg');
+}
+
+@layer theme {
+   .dark {
+      --background-image-logo: url('../images/logo-dark-mode.svg');
+      --background-image-curvy: url('../images/bg-curvy-dark-mode.svg');
+   }
+}
+
+.ficon:hover {
+   filter: invert(80%) sepia(37%) saturate(7048%) hue-rotate(132deg) brightness(105%) contrast(104%);
+}
